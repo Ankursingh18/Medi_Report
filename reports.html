@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Report</title>
+    <link rel="stylesheet" href="report.css">
+     <div id="navbar"> 
+
+        <a id="logo" href="home.html">Medi Reports</a>
+        <a href="appointment.html">Appointment</a>
+        <a href="reports.html">Reports</a>
+        <a href="contact.html">Contact us</a>
+            <input placeholder="search diseases">
+            <button>search</button>
+
+</head>
+<body>
+   
+   <h1>
+    <div id="files">
+    <input type="file" class="inputfile" id="fileinput" onchange="getfile(event)" 
+    accept="image/png,image/jpeg"
+    />
+    <label for="fileinput">+</label>
+    <button onclick="uploadImage()"> upload image</button>
+    </div>
+    <div class="bar"> 
+        <div class="progress"></div> 
+        <div class="imageuploaded"> 
+            <img alt="" class="img">
+        </div>
+
+
+    </div>
+    <div class="progresspercentage">0%</div>
+
+</h1>
+<script src="https://www.gstatic.com/firebasejs/0.0.2/firebase.js"></script>
+<script src="report.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+  }
+  
+  #logo{
+    height: 25px;
+    color: #f08804;
+  }
+  
+  a{
+   margin-right: 180px;
+   text-decoration: none;
+  }
+  
+  button{
+    background-color:#f08804;
+  }
+.search-box {
+    float: right;
+}
+.search-box button {
+    height: 32px;
+    width: 32px;
+    margin-left: -5px;
+    background: LightGrey;
+    font-size: 17px;
+    border: none;
+    margin-top: 14px;
+    margin-right: 16px;
+}
+		
+.search-box input[type=text] {
+    height: 26px;
+    font-size: 17px;
+    width: 200px;
+    margin-top: 14px;
+}
+h1{
+    margin-top: 40px;
+}
